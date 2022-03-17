@@ -114,12 +114,14 @@ header .mobile {
 /* Sign Up Section */
 
 .banner {
+  width: 100%;
   background-image: url('../images/banner-landingpage.jpg');
   background-position: center;
   background-size: cover;
 }
 
 #sign-up-section {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -220,23 +222,31 @@ header .mobile {
 /* Features Section */
 
 #features-section {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 0;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 1.316%;
   background-color: white;
+  width: 20%;
+  height: auto;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.image-container img {
+  width: 90%;
+  height: 65%;
 }
 
 .feature h2 {
