@@ -223,7 +223,7 @@ header .mobile {
 
 #features-section {
   width: 100%;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   padding: 4rem 0;
   background-color: #f3f3f3;
@@ -236,12 +236,15 @@ header .mobile {
   background-color: white;
   width: 20%;
   height: auto;
+  padding-bottom: 3.03%;
 }
 
-.feature .image-container {
+.image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
@@ -261,6 +264,17 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding-top: 6.1%;
 }
 
 @media only screen and (max-width: 890px) {
