@@ -435,16 +435,27 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  max-height: 62px;
 }
 
 footer .content {
   color: white;
+  max-height: 62px;
+  padding: 0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: .75rem;
 }
 
 footer .copyright {
   flex-grow: 1;
+}
+
+.content p {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: .75rem;
+  color: #fff;
 }
 
 @media only screen and (min-width: 760px) {
